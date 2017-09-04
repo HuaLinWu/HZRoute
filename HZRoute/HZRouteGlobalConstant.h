@@ -30,6 +30,5 @@ static NSString *const kPresentTypePushValue = @"push";
 static NSString *const kPresentTypePresentValue = @"present";
 //如果url 地址没有scheme 的时候我们需要设置一个默认的scheme
 static NSString *const kDefaultURLScheme = @"http";
-//方法调用
 
 #endif

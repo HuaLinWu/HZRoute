@@ -129,10 +129,16 @@ void openURL(NSString *url) {
                 Method method = class_getInstanceMethod(viewControllerClass, methodSel);
                 int  numberArguments =  method_getNumberOfArguments(method);
                 NSDictionary *queryDict = [self getQueryForURL:url];
-                if(numberArguments>= [queryDict allKeys].count) {
-                    //目标方法比实际参数要多
-                } else if (numberArguments < [queryDict allKeys].count) {
-                    //目标方法参数比实际要少
+                if(numberArguments ==2) {
+                    //表示方法没有参数
+                    IMP imp = [viewController methodForSelector:methodSel];
+                    void *(*func)(id,SEL) = (void *)imp;
+                    func(viewController,methodSel);
+                }else  {
+                  //表示至少有一个参数，不过我们只会对第一个参数赋queryDict 的参数
+                    IMP imp = [viewController methodForSelector:methodSel];
+                    void *(*func)(id,SEL,id) = (void *)imp;
+                    func(viewController,methodSel,queryDict);
                 }
             }
         }
@@ -149,7 +155,7 @@ void openURL(NSString *url) {
     SEL initMehtod = NSSelectorFromString(kInitViewControllerMethod);
     if([controller respondsToSelector:initMehtod]) {
         IMP imp = [controller methodForSelector:initMehtod];
-        void (*func)(id,SEL,NSDictionary *) = (void *)imp;
+        void *(*func)(id,SEL,id) = (void *)imp;
         func(controller,initMehtod,query);
     } else {
         //如果对象没有实现指定的初始化方法时（这个将参数当成property 进行赋值）
