@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import "HZRoute.h"
 @interface HZRouteTests : XCTestCase
 
 @end
@@ -25,8 +25,12 @@
 }
 
 - (void)testExample {
+    NSString *url = @"HZRoute://view/ViewController?a=1&b=2";
+    openURL(url);
+    
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
 }
 
 - (void)testPerformanceExample {
