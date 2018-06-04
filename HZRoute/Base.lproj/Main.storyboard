@@ -24,7 +24,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpf-KE-4f7">
                                 <rect key="frame" x="87" y="127" width="226" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="findFirstResponder"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <state key="normal" title="12345"/>
                                 <connections>
                                     <action selector="findFirstResponder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2AT-3j-UBH"/>
                                 </connections>

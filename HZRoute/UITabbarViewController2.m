@@ -1,19 +1,18 @@
 //
-//  ViewController1.m
+//  UITabbarViewController2.m
 //  HZRoute
 //
-//  Created by 吴华林 on 2017/9/3.
+//  Created by 吴华林 on 2017/10/23.
 //  Copyright © 2017年 吴华林. All rights reserved.
 //
 
-#import "ViewController1.h"
+#import "UITabbarViewController2.h"
 
-@interface ViewController1 ()
-@property(nonatomic, copy)NSString* a;
-@property(nonatomic, assign)NSString* b;
+@interface UITabbarViewController2 ()
+
 @end
 
-@implementation ViewController1
+@implementation UITabbarViewController2
 
 - (void)viewDidLoad {
     [super viewDidLoad];

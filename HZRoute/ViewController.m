@@ -7,14 +7,14 @@
 //
 
 #import "ViewController.h"
-#import "HZRoute.h"
+#import <HZRouteFramework/HZRoute+OpenURL.h>
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 - (void)initWithQuery:(NSDictionary *)query {
-
+   
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,11 +23,11 @@
 }
 
 - (IBAction)findFirstResponder:(id)sender {
-    NSString *url = @"HZRoute://view/ViewController1?a=1&b=2";
+//    NSString *url = @"HZRoute://view/ViewController1?a=1&b=2";
 
 //    NSString *url = @"http://www.jianshu.com/p/7bb5f15f1daa?openWith=browser";
 //    NSString *url = @"http://www.jianshu.com/p/7bb5f15f1daa";
-//    NSString *url = @"HZRoute://view/HZWebView?url=http://www.jianshu.com/p/7bb5f15f1daa";
+    NSString *url = @"HZRoute://view/webview?url=http://www.jianshu.com/p/7bb5f15f1daa";
 //   NSString *url = @"http://127.0.0.1/index.html";
 //    NSString *url = @"www.baidu.com";
 //      NSString *url = @"http://127.0.0.1:8088/index.html";

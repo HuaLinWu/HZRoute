@@ -15,10 +15,6 @@
 		FE7D7D391F5AAB4A004DEA41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7D7D371F5AAB4A004DEA41 /* LaunchScreen.storyboard */; };
 		FE7D7D441F5AAB4A004DEA41 /* HZRouteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7D7D431F5AAB4A004DEA41 /* HZRouteTests.m */; };
 		FE7D7D4F1F5AAB4A004DEA41 /* HZRouteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7D7D4E1F5AAB4A004DEA41 /* HZRouteUITests.m */; };
-		FE7D7D5E1F5AAB9A004DEA41 /* HZRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7D7D5D1F5AAB9A004DEA41 /* HZRoute.m */; };
-		FE7D7D641F5BAC28004DEA41 /* HZRoute+PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7D7D631F5BAC28004DEA41 /* HZRoute+PresentViewController.m */; };
-		FE7D7D651F5BAC28004DEA41 /* HZRoute+PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7D7D631F5BAC28004DEA41 /* HZRoute+PresentViewController.m */; };
-		FE7D7D661F5BAC28004DEA41 /* HZRoute+PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7D7D631F5BAC28004DEA41 /* HZRoute+PresentViewController.m */; };
 		FE7D7D6A1F5BED10004DEA41 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7D7D681F5BED10004DEA41 /* ViewController1.m */; };
 		FE7D7D6B1F5BED10004DEA41 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7D7D681F5BED10004DEA41 /* ViewController1.m */; };
 		FE7D7D6C1F5BED10004DEA41 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7D7D681F5BED10004DEA41 /* ViewController1.m */; };
@@ -32,6 +28,34 @@
 		FE7D7D791F5BF395004DEA41 /* HZWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE7D7D751F5BF395004DEA41 /* HZWebView.xib */; };
 		FE7D7D7A1F5BF395004DEA41 /* HZWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE7D7D751F5BF395004DEA41 /* HZWebView.xib */; };
 		FE7D7D7B1F5BF395004DEA41 /* HZWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE7D7D751F5BF395004DEA41 /* HZWebView.xib */; };
+		FEE3487420C558ED00C2ADD0 /* HZRouteFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE3487320C558ED00C2ADD0 /* HZRouteFramework.framework */; };
+		FEF2066C1F9DE37900B7E902 /* UITabbarViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2066A1F9DE37800B7E902 /* UITabbarViewController0.m */; };
+		FEF2066D1F9DE37900B7E902 /* UITabbarViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2066A1F9DE37800B7E902 /* UITabbarViewController0.m */; };
+		FEF2066E1F9DE37900B7E902 /* UITabbarViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2066A1F9DE37800B7E902 /* UITabbarViewController0.m */; };
+		FEF2066F1F9DE37900B7E902 /* UITabbarViewController0.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF2066B1F9DE37800B7E902 /* UITabbarViewController0.xib */; };
+		FEF206701F9DE37900B7E902 /* UITabbarViewController0.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF2066B1F9DE37800B7E902 /* UITabbarViewController0.xib */; };
+		FEF206711F9DE37900B7E902 /* UITabbarViewController0.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF2066B1F9DE37800B7E902 /* UITabbarViewController0.xib */; };
+		FEF206751F9DE39700B7E902 /* UITabbarViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF206731F9DE39700B7E902 /* UITabbarViewController1.m */; };
+		FEF206761F9DE39700B7E902 /* UITabbarViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF206731F9DE39700B7E902 /* UITabbarViewController1.m */; };
+		FEF206771F9DE39700B7E902 /* UITabbarViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF206731F9DE39700B7E902 /* UITabbarViewController1.m */; };
+		FEF206781F9DE39700B7E902 /* UITabbarViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF206741F9DE39700B7E902 /* UITabbarViewController1.xib */; };
+		FEF206791F9DE39700B7E902 /* UITabbarViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF206741F9DE39700B7E902 /* UITabbarViewController1.xib */; };
+		FEF2067A1F9DE39700B7E902 /* UITabbarViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF206741F9DE39700B7E902 /* UITabbarViewController1.xib */; };
+		FEF2067E1F9DE3A700B7E902 /* UITabbarViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2067C1F9DE3A700B7E902 /* UITabbarViewController2.m */; };
+		FEF2067F1F9DE3A700B7E902 /* UITabbarViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2067C1F9DE3A700B7E902 /* UITabbarViewController2.m */; };
+		FEF206801F9DE3A700B7E902 /* UITabbarViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2067C1F9DE3A700B7E902 /* UITabbarViewController2.m */; };
+		FEF206811F9DE3A700B7E902 /* UITabbarViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF2067D1F9DE3A700B7E902 /* UITabbarViewController2.xib */; };
+		FEF206821F9DE3A700B7E902 /* UITabbarViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF2067D1F9DE3A700B7E902 /* UITabbarViewController2.xib */; };
+		FEF206831F9DE3A700B7E902 /* UITabbarViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF2067D1F9DE3A700B7E902 /* UITabbarViewController2.xib */; };
+		FEF206871F9DE3BB00B7E902 /* UITabbarViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF206851F9DE3BB00B7E902 /* UITabbarViewController3.m */; };
+		FEF206881F9DE3BB00B7E902 /* UITabbarViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF206851F9DE3BB00B7E902 /* UITabbarViewController3.m */; };
+		FEF206891F9DE3BB00B7E902 /* UITabbarViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF206851F9DE3BB00B7E902 /* UITabbarViewController3.m */; };
+		FEF2068A1F9DE3BB00B7E902 /* UITabbarViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF206861F9DE3BB00B7E902 /* UITabbarViewController3.xib */; };
+		FEF2068B1F9DE3BB00B7E902 /* UITabbarViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF206861F9DE3BB00B7E902 /* UITabbarViewController3.xib */; };
+		FEF2068C1F9DE3BB00B7E902 /* UITabbarViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF206861F9DE3BB00B7E902 /* UITabbarViewController3.xib */; };
+		FEF207041FA0996300B7E902 /* HZRouteViewMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEF207031FA0996300B7E902 /* HZRouteViewMap.plist */; };
+		FEF207051FA0996300B7E902 /* HZRouteViewMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEF207031FA0996300B7E902 /* HZRouteViewMap.plist */; };
+		FEF207061FA0996300B7E902 /* HZRouteViewMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEF207031FA0996300B7E902 /* HZRouteViewMap.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,10 +92,6 @@
 		FE7D7D4A1F5AAB4A004DEA41 /* HZRouteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZRouteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7D7D4E1F5AAB4A004DEA41 /* HZRouteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZRouteUITests.m; sourceTree = "<group>"; };
 		FE7D7D501F5AAB4A004DEA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE7D7D5C1F5AAB9A004DEA41 /* HZRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZRoute.h; sourceTree = "<group>"; };
-		FE7D7D5D1F5AAB9A004DEA41 /* HZRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZRoute.m; sourceTree = "<group>"; };
-		FE7D7D621F5BAC28004DEA41 /* HZRoute+PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HZRoute+PresentViewController.h"; sourceTree = "<group>"; };
-		FE7D7D631F5BAC28004DEA41 /* HZRoute+PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HZRoute+PresentViewController.m"; sourceTree = "<group>"; };
 		FE7D7D671F5BED10004DEA41 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		FE7D7D681F5BED10004DEA41 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		FE7D7D691F5BED10004DEA41 /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
@@ -79,7 +99,20 @@
 		FE7D7D731F5BF395004DEA41 /* HZWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZWebView.h; sourceTree = "<group>"; };
 		FE7D7D741F5BF395004DEA41 /* HZWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZWebView.m; sourceTree = "<group>"; };
 		FE7D7D751F5BF395004DEA41 /* HZWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZWebView.xib; sourceTree = "<group>"; };
-		FE7D7D7C1F5D0091004DEA41 /* HZRouteGlobalConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZRouteGlobalConstant.h; sourceTree = "<group>"; };
+		FEE3487320C558ED00C2ADD0 /* HZRouteFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HZRouteFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF206691F9DE37800B7E902 /* UITabbarViewController0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITabbarViewController0.h; sourceTree = "<group>"; };
+		FEF2066A1F9DE37800B7E902 /* UITabbarViewController0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabbarViewController0.m; sourceTree = "<group>"; };
+		FEF2066B1F9DE37800B7E902 /* UITabbarViewController0.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITabbarViewController0.xib; sourceTree = "<group>"; };
+		FEF206721F9DE39700B7E902 /* UITabbarViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITabbarViewController1.h; sourceTree = "<group>"; };
+		FEF206731F9DE39700B7E902 /* UITabbarViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabbarViewController1.m; sourceTree = "<group>"; };
+		FEF206741F9DE39700B7E902 /* UITabbarViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITabbarViewController1.xib; sourceTree = "<group>"; };
+		FEF2067B1F9DE3A700B7E902 /* UITabbarViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITabbarViewController2.h; sourceTree = "<group>"; };
+		FEF2067C1F9DE3A700B7E902 /* UITabbarViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabbarViewController2.m; sourceTree = "<group>"; };
+		FEF2067D1F9DE3A700B7E902 /* UITabbarViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITabbarViewController2.xib; sourceTree = "<group>"; };
+		FEF206841F9DE3BB00B7E902 /* UITabbarViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITabbarViewController3.h; sourceTree = "<group>"; };
+		FEF206851F9DE3BB00B7E902 /* UITabbarViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabbarViewController3.m; sourceTree = "<group>"; };
+		FEF206861F9DE3BB00B7E902 /* UITabbarViewController3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITabbarViewController3.xib; sourceTree = "<group>"; };
+		FEF207031FA0996300B7E902 /* HZRouteViewMap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HZRouteViewMap.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE3487420C558ED00C2ADD0 /* HZRouteFramework.framework in Frameworks */,
 				FE7D7D721F5BF296004DEA41 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,15 +173,23 @@
 				FE7D7D671F5BED10004DEA41 /* ViewController1.h */,
 				FE7D7D681F5BED10004DEA41 /* ViewController1.m */,
 				FE7D7D691F5BED10004DEA41 /* ViewController1.xib */,
+				FEF206691F9DE37800B7E902 /* UITabbarViewController0.h */,
+				FEF2066A1F9DE37800B7E902 /* UITabbarViewController0.m */,
+				FEF2066B1F9DE37800B7E902 /* UITabbarViewController0.xib */,
+				FEF206721F9DE39700B7E902 /* UITabbarViewController1.h */,
+				FEF206731F9DE39700B7E902 /* UITabbarViewController1.m */,
+				FEF206741F9DE39700B7E902 /* UITabbarViewController1.xib */,
+				FEF2067B1F9DE3A700B7E902 /* UITabbarViewController2.h */,
+				FEF2067C1F9DE3A700B7E902 /* UITabbarViewController2.m */,
+				FEF2067D1F9DE3A700B7E902 /* UITabbarViewController2.xib */,
+				FEF206841F9DE3BB00B7E902 /* UITabbarViewController3.h */,
+				FEF206851F9DE3BB00B7E902 /* UITabbarViewController3.m */,
+				FEF206861F9DE3BB00B7E902 /* UITabbarViewController3.xib */,
 				FE7D7D731F5BF395004DEA41 /* HZWebView.h */,
 				FE7D7D741F5BF395004DEA41 /* HZWebView.m */,
 				FE7D7D751F5BF395004DEA41 /* HZWebView.xib */,
 				FE7D7D321F5AAB4A004DEA41 /* Main.storyboard */,
-				FE7D7D5C1F5AAB9A004DEA41 /* HZRoute.h */,
-				FE7D7D5D1F5AAB9A004DEA41 /* HZRoute.m */,
-				FE7D7D7C1F5D0091004DEA41 /* HZRouteGlobalConstant.h */,
-				FE7D7D621F5BAC28004DEA41 /* HZRoute+PresentViewController.h */,
-				FE7D7D631F5BAC28004DEA41 /* HZRoute+PresentViewController.m */,
+				FEF207031FA0996300B7E902 /* HZRouteViewMap.plist */,
 				FE7D7D351F5AAB4A004DEA41 /* Assets.xcassets */,
 				FE7D7D371F5AAB4A004DEA41 /* LaunchScreen.storyboard */,
 				FE7D7D3A1F5AAB4A004DEA41 /* Info.plist */,
@@ -185,6 +227,7 @@
 		FE7D7D701F5BF296004DEA41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FEE3487320C558ED00C2ADD0 /* HZRouteFramework.framework */,
 				FE7D7D711F5BF296004DEA41 /* WebKit.framework */,
 			);
 			name = Frameworks;
@@ -296,11 +339,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF207041FA0996300B7E902 /* HZRouteViewMap.plist in Resources */,
 				FE7D7D6D1F5BED10004DEA41 /* ViewController1.xib in Resources */,
 				FE7D7D391F5AAB4A004DEA41 /* LaunchScreen.storyboard in Resources */,
+				FEF2068A1F9DE3BB00B7E902 /* UITabbarViewController3.xib in Resources */,
 				FE7D7D791F5BF395004DEA41 /* HZWebView.xib in Resources */,
+				FEF206781F9DE39700B7E902 /* UITabbarViewController1.xib in Resources */,
 				FE7D7D361F5AAB4A004DEA41 /* Assets.xcassets in Resources */,
 				FE7D7D341F5AAB4A004DEA41 /* Main.storyboard in Resources */,
+				FEF2066F1F9DE37900B7E902 /* UITabbarViewController0.xib in Resources */,
+				FEF206811F9DE3A700B7E902 /* UITabbarViewController2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +357,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE7D7D6E1F5BED10004DEA41 /* ViewController1.xib in Resources */,
+				FEF206821F9DE3A700B7E902 /* UITabbarViewController2.xib in Resources */,
+				FEF2068B1F9DE3BB00B7E902 /* UITabbarViewController3.xib in Resources */,
 				FE7D7D7A1F5BF395004DEA41 /* HZWebView.xib in Resources */,
+				FEF207051FA0996300B7E902 /* HZRouteViewMap.plist in Resources */,
+				FEF206791F9DE39700B7E902 /* UITabbarViewController1.xib in Resources */,
+				FEF206701F9DE37900B7E902 /* UITabbarViewController0.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +371,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE7D7D6F1F5BED10004DEA41 /* ViewController1.xib in Resources */,
+				FEF206831F9DE3A700B7E902 /* UITabbarViewController2.xib in Resources */,
+				FEF2068C1F9DE3BB00B7E902 /* UITabbarViewController3.xib in Resources */,
 				FE7D7D7B1F5BF395004DEA41 /* HZWebView.xib in Resources */,
+				FEF207061FA0996300B7E902 /* HZRouteViewMap.plist in Resources */,
+				FEF2067A1F9DE39700B7E902 /* UITabbarViewController1.xib in Resources */,
+				FEF206711F9DE37900B7E902 /* UITabbarViewController0.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,11 +387,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7D7D641F5BAC28004DEA41 /* HZRoute+PresentViewController.m in Sources */,
+				FEF2066C1F9DE37900B7E902 /* UITabbarViewController0.m in Sources */,
 				FE7D7D311F5AAB4A004DEA41 /* ViewController.m in Sources */,
 				FE7D7D6A1F5BED10004DEA41 /* ViewController1.m in Sources */,
-				FE7D7D5E1F5AAB9A004DEA41 /* HZRoute.m in Sources */,
+				FEF206871F9DE3BB00B7E902 /* UITabbarViewController3.m in Sources */,
+				FEF206751F9DE39700B7E902 /* UITabbarViewController1.m in Sources */,
 				FE7D7D761F5BF395004DEA41 /* HZWebView.m in Sources */,
+				FEF2067E1F9DE3A700B7E902 /* UITabbarViewController2.m in Sources */,
 				FE7D7D2E1F5AAB4A004DEA41 /* AppDelegate.m in Sources */,
 				FE7D7D2B1F5AAB4A004DEA41 /* main.m in Sources */,
 			);
@@ -343,9 +403,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7D7D651F5BAC28004DEA41 /* HZRoute+PresentViewController.m in Sources */,
+				FEF206881F9DE3BB00B7E902 /* UITabbarViewController3.m in Sources */,
+				FEF2066D1F9DE37900B7E902 /* UITabbarViewController0.m in Sources */,
 				FE7D7D771F5BF395004DEA41 /* HZWebView.m in Sources */,
 				FE7D7D441F5AAB4A004DEA41 /* HZRouteTests.m in Sources */,
+				FEF206761F9DE39700B7E902 /* UITabbarViewController1.m in Sources */,
+				FEF2067F1F9DE3A700B7E902 /* UITabbarViewController2.m in Sources */,
 				FE7D7D6B1F5BED10004DEA41 /* ViewController1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,9 +417,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7D7D661F5BAC28004DEA41 /* HZRoute+PresentViewController.m in Sources */,
+				FEF206891F9DE3BB00B7E902 /* UITabbarViewController3.m in Sources */,
+				FEF2066E1F9DE37900B7E902 /* UITabbarViewController0.m in Sources */,
 				FE7D7D781F5BF395004DEA41 /* HZWebView.m in Sources */,
 				FE7D7D4F1F5AAB4A004DEA41 /* HZRouteUITests.m in Sources */,
+				FEF206771F9DE39700B7E902 /* UITabbarViewController1.m in Sources */,
+				FEF206801F9DE3A700B7E902 /* UITabbarViewController2.m in Sources */,
 				FE7D7D6C1F5BED10004DEA41 /* ViewController1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,6 +641,7 @@
 				FE7D7D551F5AAB4A004DEA41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE7D7D561F5AAB4A004DEA41 /* Build configuration list for PBXNativeTarget "HZRouteTests" */ = {
 			isa = XCConfigurationList;
@@ -583,6 +650,7 @@
 				FE7D7D581F5AAB4A004DEA41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE7D7D591F5AAB4A004DEA41 /* Build configuration list for PBXNativeTarget "HZRouteUITests" */ = {
 			isa = XCConfigurationList;
@@ -591,6 +659,7 @@
 				FE7D7D5B1F5AAB4A004DEA41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
